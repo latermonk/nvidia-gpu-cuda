@@ -6,6 +6,7 @@ https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 
 ##  Download   
 https://developer.nvidia.com/cuda-download    
+https://developer.nvidia.com/cuda-10.0-download-archive     
 
 下载安装```cuda_10.1.243_418.87.00_linux.run```
 
