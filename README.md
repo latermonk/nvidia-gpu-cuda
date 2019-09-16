@@ -118,25 +118,14 @@ nvidia-smi
 
 ```
 
-##  install server 
+
+
 ```
-deviceid:xxxx
-api-key:xxxxx
+
+Install docker 19.03:
 
 
-去网页授权License。
-
-
-拿到授权License后，请更新相应的配置文件：/opt/face1v1/config.toml，
-最后执行systemctl start supervisord启动服务。
-
-
-1:N 服务监听于39389
-1:N 服务监听于39389
-
-
-安装完成！
-
+ yum install docker-ce-19.03.0-3.el7 docker-ce-cli-19.03.0-3.el7 containerd.io
 ```
 
 
