@@ -1,7 +1,7 @@
 
 #  check system version
 
-***lsb_release -a***
+******
 
 
 ```
@@ -12,6 +12,15 @@ Release:	18.04
 Codename:	bionic
 
 ```
+##   install gcc
+
+```
+apt update 
+
+apt  install build-essential
+```
+
+
 #  disbale nouveau driver
 
 ***/etc/modprobe.d/blacklist-nouveau.conf***
@@ -22,6 +31,8 @@ vim  /etc/modprobe.d/blacklist-nouveau.conf
 
 blacklist nouveau
 options nouveau modeset=0
+
+
 ```
 
 # ***Reboot into text mode (runlevel 3)***
@@ -43,6 +54,7 @@ reboot
 ```
 
 #  
+
 
 
 
