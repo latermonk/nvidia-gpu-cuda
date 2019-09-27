@@ -152,3 +152,12 @@ https://tensorflow.google.cn/overview/
 https://github.com/wilicc/gpu-burn       
 
 http://wili.cc/blog/gpu-burn.html    
+
+
+```
+./gpu_burn 120   
+
+```
+
+
+
