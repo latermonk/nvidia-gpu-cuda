@@ -1,5 +1,30 @@
 # nvidia-gpu-cuda     
 
+#  RESULT
+
+```
+root@i-022D8229:~/Downloads# ./cuda_10.1.243_418.87.00_linux.run 
+===========
+= Summary =
+===========
+
+Driver:   Installed
+Toolkit:  Installed in /usr/local/cuda-10.1/
+Samples:  Installed in /root/, but missing recommended libraries
+
+Please make sure that
+ -   PATH includes /usr/local/cuda-10.1/bin
+ -   LD_LIBRARY_PATH includes /usr/local/cuda-10.1/lib64, or, add /usr/local/cuda-10.1/lib64 to /etc/ld.so.conf and run ldconfig as root
+
+To uninstall the CUDA Toolkit, run cuda-uninstaller in /usr/local/cuda-10.1/bin
+To uninstall the NVIDIA Driver, run nvidia-uninstall
+
+Please see CUDA_Installation_Guide_Linux.pdf in /usr/local/cuda-10.1/doc/pdf for detailed information on setting up CUDA.
+Logfile is /var/log/cuda-installer.log
+
+
+```
+
 ##  Guide   
 https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html       
 
