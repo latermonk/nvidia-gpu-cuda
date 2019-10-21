@@ -45,6 +45,7 @@ reboot
 init 3
 
 ```
+#  install cuda 10.1
 
 #  config env var
 
