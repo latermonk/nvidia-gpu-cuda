@@ -1,7 +1,10 @@
+#  prepareation:
 
-#  check system version
+
 
 ******
+
+##  check system version
 
 
 ```
@@ -21,7 +24,7 @@ apt  install build-essential
 ```
 
 
-#  disbale nouveau driver
+##  disbale nouveau driver
 
 ***/etc/modprobe.d/blacklist-nouveau.conf***
 
@@ -35,7 +38,7 @@ options nouveau modeset=0
 
 ```
 
-# ***Reboot into text mode (runlevel 3)***
+##  ***Reboot into text mode (runlevel 3)***
 
 ```
 init 3
@@ -45,6 +48,8 @@ reboot
 init 3
 
 ```
+
+----
 #  install cuda 10.1
 
 #  config env var
