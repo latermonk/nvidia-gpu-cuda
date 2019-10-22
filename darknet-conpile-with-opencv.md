@@ -15,5 +15,10 @@ apt install libopencv-dev
 
 ```
 apt-cache policy libopencv-dev
+
+
+apt-cache madison libopencv-dev
+
+
 ```
 
