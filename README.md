@@ -1,5 +1,14 @@
 # nvidia-gpu-cuda     
 
+
+
+##  CUDNN 
+
+https://developer.nvidia.com/rdp/cudnn-archive   
+
+
+
+
 #  RESULT
 
 ```
