@@ -15,6 +15,10 @@ Cuda compilation tools, release 10.1, V10.1.243
 ####   故障  nvidia-smi 命令失败
 
 
+https://blog.csdn.net/qq_41870658/article/details/93330041    
+
+
+
 ```
 modprobe nvidia     #先执行该命令
 ```
