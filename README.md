@@ -12,7 +12,14 @@ Cuda compilation tools, release 10.1, V10.1.243
 ```
 
 
-####   故障
+####   故障  nvidia-smi 命令失败
+
+
+```
+modprobe nvidia
+```
+
+
 
 ```
 step1：sudo apt-get install dkms
