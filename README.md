@@ -12,6 +12,23 @@ Cuda compilation tools, release 10.1, V10.1.243
 ```
 
 
+####   故障
+
+```
+step1：sudo apt-get install dkms
+
+step2: sudo dkms install -m nvidia -v 410xxxxxx.xx
+
+```
+再次输入nvidia-smi时，你熟悉的界面就会回来啦。
+
+
+其中step2 中的***410.79***是***NVIDIA的版本号***，当你不知道的时候，进入/usr/src目录中，可以看到里面有***nvidia文件夹***，后缀就是其版本号
+
+
+
+
+
 
 ##  CUDNN 
 
