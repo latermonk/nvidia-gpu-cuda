@@ -37,7 +37,28 @@ step2: sudo dkms install -m nvidia -v 410xxxxxx.xx
 其中step2 中的***410.79***是***NVIDIA的版本号***，当你不知道的时候，进入/usr/src目录中，可以看到里面有***nvidia文件夹***，后缀就是其版本号
 
 
+###  Gtk-WARNING **: cannot open display: :0 解决方法
 
+Xserver默认情况下不允许别的用户的图形程序的图形显示在当前屏幕上
+
+所以解决方法是：命令行退出root后，用当前账户执行命令
+
+```
+xhost +
+
+```
+
+
+xhost + 是使所有用户都能访问Xserver 
+xhost + ip 是使所有ip用户都能访问Xserver
+
+执行完以后再在命令行内登录root，就能用打开图片了
+
+
+参考：
+https://blog.csdn.net/iceprincess_1968/article/details/79941540
+
+------
 
 
 
