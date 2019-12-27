@@ -61,6 +61,15 @@ https://blog.csdn.net/iceprincess_1968/article/details/79941540
 ------
 
 
+###   Ubuntu环境下在conda环境中使用CV2.imshow出现If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config
+
+```
+需要再执行该命令：pip install opencv-contrib-python
+
+```
+
+
+
 
 ##  CUDNN 
 
